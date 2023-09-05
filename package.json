@@ -1,0 +1,115 @@
+{
+  "name": "react-next-parallax",
+  "private": false,
+  "version": "0.0.1",
+  "description": "A Performant Customizable React Component Providing the Parallax Tilt Effect",
+  "main": "./dist/react-next-parallax.umd.cjs",
+  "module": "./dist/react-next-parallax.js",
+  "exports": {
+    ".": {
+      "import": [
+        "./dist/react-next-parallax.js",
+        "./dist/index.d.ts"
+      ],
+      "require": [
+        "./dist/react-next-parallax.umd.cjs",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "author": {
+    "name": "Rashid Shamloo",
+    "email": "rashidshamloo@gmail.com",
+    "url": "https://github.com/rashidshamloo"
+  },
+  "email": "rashidshamloo@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "next",
+    "parallax",
+    "tilt",
+    "component",
+    "glare",
+    "3d",
+    "effect",
+    "react-component",
+    "react-tilt",
+    "react-parallax",
+    "react-next-parallax",
+    "mirror",
+    "transform",
+    "rotate",
+    "scale",
+    "hover",
+    "touch",
+    "shadow"
+  ],
+  "scripts": {
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "cypress run --component --browser chrome",
+    "test:open": "cypress open --component --browser chrome",
+    "storybook": "storybook dev -p 6006",
+    "storybook:build": "storybook build",
+    "predeploy": "npm run storybook:build",
+    "deploy": "gh-pages -d storybook-static",
+    "build": "tsc && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashidshamloo/react-next-parallax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rashidshamloo/react-next-parallax/issues",
+    "email": "rashidshamloo@gmail.com"
+  },
+  "homepage": "https://github.com/rashidshamloo/react-next-parallax#readme",
+  "peerDependencies": {
+    "react": ">= 16.8 || ^18.2.0",
+    "react-dom": ">= 16.8 || ^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.1.1",
+    "@storybook/addon-interactions": "^7.1.1",
+    "@storybook/addon-links": "^7.1.1",
+    "@storybook/blocks": "^7.1.1",
+    "@storybook/manager-api": "^7.1.1",
+    "@storybook/react": "^7.1.1",
+    "@storybook/react-vite": "^7.1.1",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/theming": "^7.1.1",
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "cypress": "^12.17.1",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "eslint-plugin-storybook": "^0.6.12",
+    "gh-pages": "^5.0.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.1.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-dts": "^3.3.1"
+  },
+  "files": [
+    "./dist/react-next-parallax.js",
+    "./dist/react-next-parallax.umd.cjs",
+    "./dist/index.d.ts"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "dependencies": {
+    "react-next-tilt": "^0.3.0"
+  }
+}
