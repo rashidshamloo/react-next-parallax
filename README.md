@@ -10,7 +10,7 @@
     <a href="https://rashidshamloo.github.io/react-next-parallax_demo"><b>Main Demo</b></a> •
     <a href="https://rashidshamloo.github.io/react-next-parallax_demo/attributes"><b>Attributes Demo</b></a> •
     <a href="https://rashidshamloo.github.io/react-next-parallax_demo/control-element"><b>Control Element Demo</b></a> •
-    <a href="https://rashidshamloo.github.io/react-next-parallax/?path=/docs/fliptilt-react-next-parallax--docs"><b>Storybook</b></a>
+    <a href="https://rashidshamloo.github.io/react-next-parallax/?path=/docs/parallax-react-next-parallax--docs"><b>Storybook</b></a>
 </p>
 
 <div align="center">
