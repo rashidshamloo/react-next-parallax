@@ -410,6 +410,7 @@ const NextParallax = forwardRef<ParallaxRef, ParallaxProps>(
       attributeSelector,
       attributes,
       multiplier,
+      children,
     ]);
 
     // set initial values for parallaxElements

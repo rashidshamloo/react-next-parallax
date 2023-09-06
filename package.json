@@ -1,7 +1,7 @@
 {
   "name": "react-next-parallax",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Performant Customizable React Component Providing the Parallax Tilt Effect",
   "main": "./dist/react-next-parallax.umd.cjs",
   "module": "./dist/react-next-parallax.js",
