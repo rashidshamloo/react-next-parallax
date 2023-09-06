@@ -488,7 +488,6 @@ const NextParallax = forwardRef<ParallaxRef, ParallaxProps>(
         shadowEnable={shadowEnable}
         shadow={shadow}
         CSSTransition={CSSTransition}
-        // preserve3dEnable={preserve3dEnable}
         spotGlareSizePercent={spotGlareSizePercent}
         spotGlarePosition={spotGlarePosition}
         tiltMaxAngleX={tiltMaxAngleX}
