@@ -9,7 +9,6 @@ import {
   useState,
   useImperativeHandle,
   useMemo,
-  // useLayoutEffect,
 } from 'react';
 
 // tilt
@@ -19,7 +18,6 @@ import { Tilt, TiltRef, TiltRef as ParallaxRef, Angle } from 'react-next-tilt';
 import {
   getHTMLElement,
   getParallaxElement,
-  isDeepEqual,
   mapAngleToRange,
 } from './utility/utility';
 
@@ -505,9 +503,7 @@ const NextParallax = forwardRef<ParallaxRef, ParallaxProps>(
   }
 );
 
-export const Parallax = memo(NextParallax, (prevProps, nextProps) =>
-  isDeepEqual(prevProps, nextProps)
-);
+export const Parallax = memo(NextParallax);
 
 Parallax.displayName = 'Parallax';
 
