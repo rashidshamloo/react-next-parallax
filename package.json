@@ -110,6 +110,6 @@
     "sourceType": "module"
   },
   "dependencies": {
-    "react-next-tilt": "^0.3.1"
+    "react-next-tilt": "^0.4.3"
   }
 }
